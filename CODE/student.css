@@ -1,0 +1,260 @@
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cont {
+   
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    /* height: 1200px; */
+    /* position: absolute; */
+    /* top: 50%;*/
+    padding: 3vw;
+    border: 2px solid black;
+
+    /* background styling */
+    /* border: 0.35rem solid;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+    background-color: #6c66db70;  
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgb(70, 59, 191); */
+}
+
+.in_cont{
+   display: flex;
+   margin-top: 10px;
+   margin-bottom: 18px;
+   
+}
+
+
+.left{
+    display: flex;
+    width: 40%;
+    font-size: 18px;
+    margin-left: 18%;
+    
+}
+
+.right{
+    display: flex;
+    font-size: 18px;
+    width: 60%;
+}
+
+.pic
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pic img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    font-size: 50px;
+    border: 2px solid rebeccapurple;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.print-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 14px 32 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+/* 
+print animation
+
+button.print-button {
+    width: 100px;
+    height: 100px;
+  }
+  span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+    border: solid 4px #333;
+  }
+  span.print-icon::after {
+    border-width: 2px;
+  }
+  
+  button.print-button {
+    position: relative;
+    padding: 0;
+    border: 0;
+    
+    border: none;
+    background: transparent;
+  }
+  
+  span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  span.print-icon {
+    position: relative;
+    display: inline-block;  
+    padding: 0;
+    margin-top: 20%;
+  
+    width: 60%;
+    height: 35%;
+    background: #fff;
+    border-radius: 20% 20% 0 0;
+  }
+  
+  span.print-icon::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 12%;
+    right: 12%;
+    height: 110%;
+  
+    transition: height .2s .15s;
+  }
+  
+  span.print-icon::after {
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    right: 12%;
+    height: 0%;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-position: center;
+    background-image: linear-gradient(
+      to top,
+      #fff 0, #fff 14%,
+      #333 14%, #333 28%,
+      #fff 28%, #fff 42%,
+      #333 42%, #333 56%,
+      #fff 56%, #fff 70%,
+      #333 70%, #333 84%,
+      #fff 84%, #fff 100%
+    );
+  
+    transition: height .2s, border-width 0s .2s, width 0s .2s;
+  }
+  
+  button.print-button:hover {
+    cursor: pointer;
+  }
+  
+  button.print-button:hover .print-icon::before {
+    height:0px;
+    transition: height .2s;
+  }
+  button.print-button:hover .print-icon::after {
+    height:120%;
+    transition: height .2s .15s, border-width 0s .16s;
+  } */
+  
+
+/* .btn1{
+
+    border: 0px;
+    padding: 1rem 3rem;
+    letter-spacing: 1px;
+    font-style: bold;
+    
+    background-image: linear-gradient(to right,
+            rgb(12, 1, 25) 0%,
+            rgba(2, 5, 50, 0.697) 20%,
+            rgba(56, 91, 180, 0.851) 30%,
+            rgba(149, 145, 226, 0.599) 40%,
+            rgba(192, 184, 237, 0.621) 80%,
+            rgba(188, 165, 242, 0.758) 90%,
+            rgba(203, 194, 233, 0.862) 100%);
+    background-size: 200% 200%;
+
+    border: 2px solid rgba(0, 0, 0, 0.467);
+
+    background-color: rgb(27, 10, 10);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    animation: borders 5s ease-in-out alternate infinite,
+        shadows 6.5s ease-in-out alternate infinite,
+        letters 5s ease-in-out alternate infinite,
+        grow 7.5s ease-in-out alternate infinite, backgrounds 8s linear infinite;
+
+}
+
+
+@keyframes borders {
+    25% {
+        border-radius: 950px 550px 350px 950px / 350px 950px 550px 450px;
+    }
+
+    50% {
+        border-radius: 950px 250px 350px 950px / 350px 950px 350px 450px;
+    }
+
+    75% {
+        border-radius: 550px 550px 350px 150px / 350px 950px 350px 450px;
+    }
+
+    100% {
+        border-radius: 950px 250px 950px 250px / 250px 750px 250px 750px;
+    }
+}
+
+@keyframes shadows {
+    0% {
+        box-shadow: #583eac 0 0 10px;
+    }
+
+    50% {
+        box-shadow: rgb(187, 129, 245) 0 0 30px;
+    }
+
+    75% {
+        box-shadow: rgb(215, 183, 248) 0 0 20px;
+    }
+
+    100% {
+        box-shadow: #d5d2f1 0 0 10px;
+    }
+}
+
+@keyframes backgrounds {
+    to {
+        background-position: -200% 0%;
+    }
+}
+
+@keyframes letters {
+    to {
+        letter-spacing: 5px;
+    }
+}
+
+@keyframes grow {
+    to {
+        transform: scale(0.85);
+    }
+} */
